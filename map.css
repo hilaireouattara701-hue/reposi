@@ -1,0 +1,59 @@
+#info {
+ position:absolute; 
+            background:#fff; 
+            border:1px solid #ccc; 
+            padding:10px; 
+            display:none;
+}
+
+.card {
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: block;
+  
+}
+
+.card h3 {
+  color: #2E7D32;
+  margin-bottom: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+.map{
+  width: 46%;
+  position: relative;
+  margin: 20px auto;
+  border: 3px solid #f4eeee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+.map path {
+  fill: #e0780f;
+  stroke: #18f047;
+  stroke-width: 1px;
+}
+
+
+svg{
+  width: 100%;
+  height: 100%;
+  stroke-width: 2px;
+}
+
+
+
+.map path:hover {
+  fill: #2a6f41;
+  cursor: pointer;
+}
